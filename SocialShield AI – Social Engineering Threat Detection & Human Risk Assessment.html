@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SocialShield AI – Social Engineering Threat Detection & Human Risk Assessment</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--tx:#0f172a;--mu:#64748b;--ac:#2563eb;--ac2:#7c3aed;--bd:#e2e8f0;--ok:#16a34a;--wa:#d97706;--bad:#dc2626;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1220;--card:#131c2f;--tx:#e8eefc;--mu:#94a3b8;--ac:#60a5fa;--ac2:#a78bfa;--bd:#24304a;--ok:#4ade80;--wa:#fbbf24;--bad:#f87171}}
+:root[data-theme="dark"]{--bg:#0b1220;--card:#131c2f;--tx:#e8eefc;--mu:#94a3b8;--ac:#60a5fa;--ac2:#a78bfa;--bd:#24304a;--ok:#4ade80;--wa:#fbbf24;--bad:#f87171}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+nav{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--bd);display:flex;gap:18px;align-items:center;padding:12px 5%;flex-wrap:wrap}
+nav b{font-size:18px;margin-right:auto;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+nav a{color:var(--mu);text-decoration:none;font-size:14px}nav a:hover{color:var(--ac)}
+section{max-width:1000px;margin:auto;padding:56px 5%}
+.hero{text-align:center;padding-top:72px}
+.hero h1{font-size:clamp(28px,5vw,46px);line-height:1.2;margin:12px 0}
+.hero p{color:var(--mu);max-width:680px;margin:0 auto 24px}
+.tag{display:inline-block;border:1px solid var(--bd);border-radius:99px;padding:4px 14px;font-size:13px;color:var(--ac);background:var(--card)}
+.btn{background:linear-gradient(90deg,var(--ac),var(--ac2));color:#fff;border:0;border-radius:10px;padding:12px 22px;font-size:15px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.o{background:none;color:var(--ac);border:1px solid var(--ac)}
+h2{font-size:28px;margin:0 0 6px}.sub{color:var(--mu);margin:0 0 24px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:22px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.stats .card{text-align:center}.stats b{font-size:30px;color:var(--ac);display:block}
+textarea{width:100%;min-height:140px;border:1px solid var(--bd);border-radius:10px;padding:12px;background:var(--bg);color:var(--tx);font:inherit;resize:vertical}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.meter{height:14px;background:var(--bd);border-radius:99px;overflow:hidden;margin:12px 0}
+.meter i{display:block;height:100%;width:0;transition:width .6s,background .6s}
+.badge{font-weight:700;font-size:20px}
+.flag{border-left:4px solid var(--wa);background:var(--bg);padding:8px 12px;border-radius:6px;margin:8px 0;font-size:14px}
+.flag small{color:var(--mu);display:block}
+.q{margin-bottom:20px}.q p{font-weight:600;margin:0 0 8px}
+.opt{display:block;border:1px solid var(--bd);border-radius:10px;padding:10px 14px;margin:6px 0;cursor:pointer;background:var(--bg)}
+.opt:has(input:checked){border-color:var(--ac);background:color-mix(in srgb,var(--ac) 12%,var(--bg))}
+.opt input{margin-right:8px}
+.steps{counter-reset:s}.steps .card{position:relative;padding-top:44px}
+.steps .card::before{counter-increment:s;content:counter(s);position:absolute;top:12px;left:18px;width:26px;height:26px;border-radius:50%;background:var(--ac);color:#fff;text-align:center;font-weight:700;line-height:26px}
+.steps h3{margin:0 0 4px;font-size:16px}.steps p{margin:0;color:var(--mu);font-size:14px}
+footer{text-align:center;color:var(--mu);font-size:13px;padding:30px 5% 50px;border-top:1px solid var(--bd)}
+.hide{display:none}
+</style></head><body>
+<nav><b>🛡️ SocialShield AI</b><a href="#detect">Threat Detector</a><a href="#assess">Risk Assessment</a><a href="#model">Model</a><a href="#how">How It Works</a><a href="#about">About</a></nav>
+
+<section class="hero">
+<span class="tag">College Project · Cybersecurity + AI</span>
+<h1>AI-Based Social Engineering Threat Detection<br>and Human Risk Assessment System</h1>
+<p>Attackers hack people, not just computers. SocialShield AI analyses suspicious messages for manipulation tactics and measures how vulnerable a person is to them, so awareness training can be targeted.</p>
+<a class="btn" href="#detect">Scan a Message</a> <a class="btn o" href="#assess">Take Risk Assessment</a>
+</section>
+
+<section style="padding-top:0"><div class="grid stats">
+<div class="card"><b>98%</b>of cyberattacks involve some social engineering</div>
+<div class="card"><b>10</b>manipulation signals analysed per message</div>
+<div class="card"><b>8</b>behavioural scenarios in the human risk test</div>
+<div class="card"><b>0</b>data sent anywhere: runs fully in your browser</div></div></section>
+
+<section id="detect"><h2>🔍 Threat Detector</h2><p class="sub">Paste an email, SMS, WhatsApp message or URL. The engine scores it for phishing and manipulation tactics.</p>
+<div class="card"><textarea id="msg" placeholder="Paste a suspicious message here..."></textarea>
+<div class="row"><button class="btn" onclick="scan()">Analyse Message</button>
+<button class="btn o" onclick="sample(0)">Try phishing sample</button><button class="btn o" onclick="sample(1)">Try safe sample</button></div>
+<div id="res" class="hide"><hr style="border:0;border-top:1px solid var(--bd);margin:18px 0">
+<div class="badge" id="verdict"></div><div id="ml" style="color:var(--mu);font-size:14px"></div><div class="meter"><i id="bar"></i></div><div id="flags"></div><div class="row"><button class="btn o" onclick="copyRep()">Copy analysis report</button></div></div></div></section>
+
+<section id="assess"><h2>🧠 Human Risk Assessment</h2><p class="sub">Choose what you would honestly do. You will get a personal vulnerability score and tips.</p>
+<div class="card"><div id="quiz"></div><button class="btn" onclick="grade()">Calculate My Risk</button>
+<div id="qres" class="hide"><hr style="border:0;border-top:1px solid var(--bd);margin:18px 0">
+<div class="badge" id="qv"></div><div class="meter"><i id="qbar"></i></div><div id="qtips"></div></div></div></section>
+
+<section id="model"><h2>📊 Model Performance</h2><p class="sub">A Naive Bayes text classifier is trained live in your browser on a labelled dataset of phishing and legitimate messages, then evaluated with 5-fold cross-validation.</p>
+<div class="grid stats"><div class="card"><b id="m1">–</b>Accuracy</div><div class="card"><b id="m2">–</b>Precision</div><div class="card"><b id="m3">–</b>Recall</div><div class="card"><b id="m4">–</b>F1-score</div></div>
+<div class="card" style="margin-top:16px"><p id="cm" style="margin:0"></p></div>
+<div class="card" style="margin-top:16px"><b>Final threat score</b> = 55% rule-based signal score (10 tactic detectors + URL analysis) + 45% Naive Bayes phishing probability. This hybrid approach catches both known tricks and new wording.</div></section>
+<section id="how"><h2>⚙️ How It Works</h2><p class="sub">System pipeline</p>
+<div class="grid steps">
+<div class="card"><h3>Input</h3><p>Message text, email body or link is captured from the user.</p></div>
+<div class="card"><h3>Preprocessing</h3><p>Lower-casing, tokenisation, URL and entity extraction.</p></div>
+<div class="card"><h3>Feature Detection</h3><p>NLP rules detect urgency, fear, authority, reward and credential requests.</p></div>
+<div class="card"><h3>Risk Scoring</h3><p>Weighted model produces a 0–100 threat score and verdict.</p></div>
+<div class="card"><h3>Human Profiling</h3><p>Behavioural quiz maps user habits to a vulnerability level.</p></div>
+<div class="card"><h3>Recommendations</h3><p>Personalised training tips and safe-action guidance.</p></div></div></section>
+
+<section id="about"><h2>📘 About the Project</h2>
+<div class="card"><p><b>Objective:</b> reduce successful social engineering attacks by combining automated threat detection with human-factor risk measurement.</p>
+<p><b>Attack types covered:</b> phishing, smishing, vishing scripts, pretexting, baiting, CEO fraud, tech-support scams.</p>
+<p><b>Technologies:</b> HTML, CSS, JavaScript, weighted rule-based NLP scoring (can be upgraded to a trained ML classifier such as Naive Bayes or BERT).</p>
+<p><b>Future scope:</b> browser extension, email-gateway integration, organisation-wide dashboards, multilingual detection.</p></div></section>
+<footer>SocialShield AI · Academic project demo. Results are indicative, not a substitute for professional security tools.</footer>
+
+<script>
+const R=[
+["Urgency pressure",/\b(urgent|immediately|asap|within \d+ ?(hours?|mins?)|last chance|expires?|final notice|act now|right away|today only)\b/gi,15,"Creates time pressure so you act before thinking."],
+["Credential request",/\b(password|otp|one[- ]time|pin\b|cvv|login|verify your (account|identity)|confirm your (account|details)|security code|ssn|aadhaar)\b/gi,22,"Asks for sensitive credentials or codes."],
+["Financial lure",/\b(gift ?cards?|wire transfer|bitcoin|crypto|upi|bank details|payment|refund|invoice|transfer \$?[\d,]+)\b/gi,14,"Involves money movement, a classic fraud goal."],
+["Fear / threat",/\b(suspended|blocked|locked|legal action|arrest|police|penalty|unauthori[sz]ed|compromised|terminated|deactivated)\b/gi,16,"Uses fear of loss or punishment."],
+["Reward bait",/\b(won|winner|lottery|prize|free|congratulations|selected|reward|bonus|cashback)\b/gi,12,"Promises an unexpected reward (baiting)."],
+["Authority impersonation",/\b(ceo|director|manager|it (support|desk|department)|helpdesk|bank|irs|income tax|customs|microsoft|amazon|paypal|hr department)\b/gi,10,"Poses as a trusted authority."],
+["Generic greeting",/\b(dear (customer|user|client|member|sir|madam)|valued customer)\b/gi,8,"Impersonal greeting, typical of mass phishing."],
+["Click / attachment push",/\b(click (here|below|the link)|open (the )?attachment|download|update now|log ?in here)\b/gi,12,"Pushes you to click a link or open a file."],
+["Secrecy request",/\b(do not tell|don't tell|keep (this )?confidential|between us|secret)\b/gi,12,"Isolates you from others who could spot the scam."]];
+function urlFlags(t){const u=t.match(/(https?:\/\/|www\.)[^\s]+|\b[\w-]+\.(xyz|top|tk|ml|click|info|ru|cn)\b[^\s]*/gi)||[],o=[];
+u.forEach(x=>{let s=0,w=[];
+if(/^http:\/\//i.test(x)){s+=8;w.push("not HTTPS")}
+if(/(bit\.ly|tinyurl|t\.co|goo\.gl|cutt\.ly|is\.gd)/i.test(x)){s+=12;w.push("URL shortener hides the destination")}
+if(/\d{1,3}(\.\d{1,3}){3}/.test(x)){s+=15;w.push("raw IP address")}
+if(/@/.test(x)){s+=10;w.push("contains @ trick")}
+if(/(-.*){3,}/.test(x.split("/")[2]||x)){s+=8;w.push("many hyphens in domain")}
+if(/\.(xyz|top|tk|ml|click|info|ru|cn)\b/i.test(x)){s+=10;w.push("high-abuse domain extension")}
+if(/(paypa1|amaz0n|micros0ft|g00gle|faceb00k|netfIix|secure-?login|verify-?account)/i.test(x)){s+=18;w.push("look-alike brand spelling")}
+if(!s&&/^(https?:\/\/|www\.)/i.test(x)){s=3;w.push("link present, verify the real domain")}
+if(s)o.push(["Suspicious link: "+x.slice(0,50),s,w.join("; ")])});return o}
+function scan(){const t=document.getElementById("msg").value.trim();if(!t){alert("Please paste a message first.");return}
+let sc=0,f=[];
+R.forEach(([n,re,w,d])=>{const m=t.match(re);if(m){const p=Math.min(w+(m.length-1)*3,w*1.6);sc+=p;f.push([n+" (\""+[...new Set(m.map(x=>x.toLowerCase()))].slice(0,3).join('", "')+"\")",p,d])}});
+urlFlags(t).forEach(x=>{sc+=x[1];f.push(x)});
+const caps=(t.match(/\b[A-Z]{4,}\b/g)||[]).length,ex=(t.match(/!/g)||[]).length;
+if(caps>2||ex>2){sc+=7;f.push(["Aggressive formatting",7,"Excess capitals or exclamation marks add emotional pressure."])}
+const rule=Math.min(100,sc),pm=prob(MODEL,t);sc=Math.round(.55*rule+.45*pm*100);document.getElementById('ml').textContent='Rule score '+Math.round(rule)+'/100 · Naive Bayes phishing probability '+(pm*100).toFixed(0)+'%';
+const lv=sc<25?["Low risk – looks safe",'var(--ok)']:sc<55?["Suspicious – verify before acting",'var(--wa)']:["High risk – likely social engineering",'var(--bad)'];
+const v=document.getElementById("verdict");v.textContent=sc+"/100 · "+lv[0];v.style.color=lv[1];
+const b=document.getElementById("bar");b.style.background=lv[1];b.style.width="0";setTimeout(()=>b.style.width=sc+"%",30);
+f.sort((a,c)=>c[1]-a[1]);
+document.getElementById("flags").innerHTML=f.length?f.map(x=>`<div class="flag"><b>${esc(x[0])}</b> <small>${esc(x[2])}</small></div>`).join("")+(sc>=25?"<p><b>Recommended action:</b> do not click links or reply. Contact the sender through an official channel and report the message.</p>":""):"<p>No manipulation signals detected. Stay alert anyway: verify unexpected requests.</p>";
+LAST='SocialShield AI report\nThreat score: '+sc+'/100 ('+lv[0]+')\n'+document.getElementById('ml').textContent+'\nSignals: '+(f.map(x=>x[0]).join('; ')||'none');document.getElementById("res").classList.remove("hide")}
+const D=[
+["Your account has been suspended. Verify your password now at http://secure-bank-login.xyz",1],["URGENT: confirm your OTP immediately or your card will be blocked",1],["Congratulations! You won a free iPhone. Click here to claim your prize",1],["Dear customer, your KYC is expired. Update now to avoid account deactivation",1],["Your package could not be delivered. Pay the small fee at bit.ly/track-parcel",1],["Final notice: unpaid tax. Legal action will be taken. Transfer payment today",1],["This is the CEO. Buy gift cards urgently and send me the codes. Keep it confidential",1],["IT helpdesk: your mailbox is full. Login here to verify your account details",1],["You have received a refund of 5000. Enter your bank details to receive it",1],["Unusual sign-in detected. Confirm your identity or your account will be locked",1],["Free bitcoin giveaway! Send 0.1 BTC and receive 1 BTC back, limited time",1],["Dear user, your Netflix payment failed. Update billing information immediately",1],["Hello, I am a prince and need your help to transfer funds. You will get a big reward",1],["Your Aadhaar is blocked. Call this number and share the OTP to reactivate",1],["Security alert: your PayPal account is limited. Click the link to restore access",1],["Lottery winner! Claim 50,000 cashback now, pay processing fee to release funds",1],["Job offer: earn 5000 daily from home. Send registration fee and your bank PIN",1],["Your electricity will be disconnected tonight. Call the officer immediately and pay",1],["Microsoft support: virus found on your computer. Download this tool and call us",1],["Invoice attached. Open the attachment and enter your login to view payment details",1],["Do not tell anyone. Wire the money to this account today, it is an urgent deal",1],["Your SIM will be deactivated within 24 hours. Click here to complete verification",1],["Win a free vacation! Just confirm your credit card number and CVV",1],["Tax department notice: arrest warrant issued. Pay penalty now to avoid police action",1],
+["Hi team, attaching the minutes from yesterday's review meeting",0],["Lunch at 1 pm tomorrow? Let me know which place you prefer",0],["Your assignment submission is due next Monday. Please upload it on the portal",0],["Thanks for the update, I will review the report and share feedback by Friday",0],["Reminder: the lab session has moved to room 204 at 10 am",0],["Happy birthday! Hope you have a wonderful day with family and friends",0],["Can you send me the notes from yesterday's lecture on operating systems?",0],["The project demo is scheduled for Thursday. Please bring your laptop",0],["Your order has been shipped and will arrive on Wednesday. Track it in the app",0],["Meeting notes: we agreed to finish the module by next week",0],["Dinner at home tonight, mom is cooking your favourite dish",0],["Please find the syllabus attached for the upcoming semester",0],["Great job on the presentation today, the whole team did well",0],["The library will be closed on Sunday for maintenance",0],["I will be late by ten minutes, start the call without me",0],["Your monthly statement is available. Log in to the official app to view it",0],["Can we reschedule our study group to Saturday afternoon?",0],["Congratulations on your internship offer, so proud of you",0],["The cricket match starts at 7. Are you joining us at the ground?",0],["Please review the pull request when you get a chance, no rush",0],["Exam timetable has been published on the college website",0],["Thanks for helping me with the code yesterday, it works now",0],["Weekend plan: movie and then pizza, let me know if you are in",0],["Your appointment is confirmed for Tuesday at 4 pm. See you then",0]];
+function tok(t){return t.toLowerCase().replace(/(https?:\/\/|www\.)\S+/g,' urltoken ').match(/[a-z']+/g)||[]}
+function train(d){const c=[Object.create(null),Object.create(null)],n=[0,0],V=new Set;d.forEach(([t,y])=>{n[y]++;tok(t).forEach(w=>{c[y][w]=(c[y][w]||0)+1;V.add(w)})});return{c,n,V:V.size,tot:[0,1].map(y=>Object.values(c[y]).reduce((a,b)=>a+b,0))}}
+function prob(m,t){const l=[0,1].map(y=>{let s=Math.log(m.n[y]/(m.n[0]+m.n[1]));tok(t).forEach(w=>s+=Math.log(((m.c[y][w]||0)+1)/(m.tot[y]+m.V)));return s});return 1/(1+Math.exp(l[0]-l[1]))}
+const MODEL=train(D);let TP=0,FP=0,TN=0,FN=0;
+for(let k=0;k<5;k++){const m=train(D.filter((_,i)=>i%5!=k));D.forEach(([t,y],i)=>{if(i%5==k){const p=prob(m,t)>.5?1:0;if(p&&y)TP++;else if(p&&!y)FP++;else if(!p&&!y)TN++;else FN++}})}
+{const a=(TP+TN)/D.length,p=TP/(TP+FP||1),r=TP/(TP+FN||1),pc=x=>(x*100).toFixed(1)+'%';
+m1.textContent=pc(a);m2.textContent=pc(p);m3.textContent=pc(r);m4.textContent=pc(2*p*r/(p+r||1));
+cm.innerHTML=`<b>Confusion matrix</b> (${D.length} samples, 5-fold CV): True Positive <b>${TP}</b> · False Positive <b>${FP}</b> · True Negative <b>${TN}</b> · False Negative <b>${FN}</b>`}
+let LAST='';function copyRep(){const t=LAST;if(navigator.clipboard)navigator.clipboard.writeText(t).then(()=>alert('Report copied to clipboard'),()=>prompt('Copy report:',t));else prompt('Copy report:',t)}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function sample(i){document.getElementById("msg").value=i?"Hi team, attaching the minutes from yesterday's project review. Let me know if I missed any action items. Thanks, Priya":"URGENT!!! Dear Customer, your bank account has been SUSPENDED due to unauthorized activity. Verify your account and enter your OTP immediately at http://secure-login-sbi-verify.xyz/update or legal action will follow. Do not tell anyone.";scan()}
+const Q=[
+["An email from 'IT Support' says your password expires today and asks you to log in via its link.",["Click the link and log in quickly","Check the sender and sign in only via the official site","Ignore and report it to IT"],"Never log in through links in unexpected emails; go to the official site yourself."],
+["A caller claiming to be from your bank asks for the OTP to 'stop a fraud'.",["Share it to protect my money","Ask questions, then decide","Hang up and call the bank's official number"],"Banks never ask for OTPs. Hang up and call back on a number you trust."],
+["You find an unknown USB drive labelled 'Salary 2026' in the parking lot.",["Plug it in to find the owner","Hand it to security or IT","Plug it into an old, isolated PC"],"Baiting attacks use curiosity; never plug in unknown devices."],
+["Your 'CEO' messages from a new number asking you to buy gift cards urgently.",["Buy them, it's the CEO","Reply and ask for details","Verify via a known contact and report"],"Authority plus urgency is classic CEO fraud. Verify through a second channel."],
+["How do you manage your passwords?",["Same password everywhere","Few variations of one password","Unique passwords with a manager and MFA"],"Use a password manager and enable multi-factor authentication everywhere."],
+["A stranger in a delivery uniform asks you to hold the office door open (tailgating).",["Hold it, they look legit","Ask them to badge in or sign in at reception","Ignore them and move on"],"Physical social engineering is real: always route visitors through reception."],
+["You get an SMS: 'You won ₹50,000! Claim at bit.ly/xyz'.",["Click to claim it","Reply STOP","Delete and block, never click"],"Too-good-to-be-true rewards plus shortened links are strong red flags."],
+["How much personal info do you share publicly on social media?",["Phone, birthday, workplace, location","Some details, public profile","Minimal, with a private profile"],"Attackers harvest public details for convincing pretexting."]];
+document.getElementById("quiz").innerHTML=Q.map((q,i)=>`<div class="q"><p>${i+1}. ${q[0]}</p>${q[1].map((o,j)=>`<label class="opt"><input type="radio" name="q${i}" value="${j}">${o}</label>`).join("")}</div>`).join("");
+function grade(){let r=0,tips=[];
+for(let i=0;i<Q.length;i++){const s=document.querySelector(`input[name=q${i}]:checked`);if(!s){alert("Please answer question "+(i+1));return}
+const v=+s.value,risk=(["0","1","2"].includes(String(v)))?(i==1||i==6?[2,1,0][v]:i==2?[2,0,1][v]:i==3?[2,1,0][v]:i==5?[2,0,1][v]:[2,1,0][v]):0;
+r+=risk;if(risk>0)tips.push(Q[i][2])}
+const p=Math.round(r/(Q.length*2)*100),lv=p<25?["Low human risk",'var(--ok)']:p<55?["Moderate human risk",'var(--wa)']:["High human risk",'var(--bad)'];
+const e=document.getElementById("qv");e.textContent=p+"% vulnerability · "+lv[0];e.style.color=lv[1];
+const b=document.getElementById("qbar");b.style.background=lv[1];b.style.width="0";setTimeout(()=>b.style.width=p+"%",30);
+document.getElementById("qtips").innerHTML=tips.length?"<p><b>Your personalised tips:</b></p>"+tips.map(t=>`<div class="flag">${t}</div>`).join(""):"<p>Excellent! Your habits resist the common social engineering tactics.</p>";
+document.getElementById("qres").classList.remove("hide")}
+</script></body></html>
