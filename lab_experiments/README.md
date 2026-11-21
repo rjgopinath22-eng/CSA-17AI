@@ -51,3 +51,35 @@ These three experiments demonstrate graph search and constraint solving in Pytho
 **Sample result:** The program prints one valid board using `Q` for queens and `.` for empty squares. A solution may differ if the search order changes.
 
 **Conclusion:** Backtracking finds a valid arrangement while pruning partial boards that already violate the constraints.
+
+## Experiment 4: Water Jug Problem
+
+Find a sequence of operations that measures two liters with four-liter and three-liter jugs. The program uses breadth-first search over jug states. See [ex-4.py](ex-4.py) and the [Word lab record](ex-4.docx).
+
+## Experiment 5: Crypt Arithmetic Problem
+
+Solve SEND + MORE = MONEY by assigning distinct digits to the letters. The program searches digit permutations and checks the arithmetic equation. See [ex-5.py](ex-5.py) and the [Word lab record](ex-5.docx).
+
+## Experiment 6: Missionaries and Cannibals Problem
+
+Use breadth-first search to transport three missionaries and three cannibals safely across a river. See [ex-6.py](ex-6.py) and the [Word lab record](ex-6.docx).
+
+## Experiment 7: Vacuum Cleaner Problem
+
+Use a rule-based agent to clean a two-room environment. See [ex-7.py](ex-7.py) and the [Word lab record](ex-7.docx).
+
+## Experiment 8: Breadth First Search
+
+Traverse a graph level by level from a start vertex. See [ex-8.py](ex-8.py) and the [Word lab record](ex-8.docx).
+
+## Experiment 9: Depth First Search
+
+Traverse a graph by following branches deeply before backtracking. See [ex-9.py](ex-9.py) and the [Word lab record](ex-9.docx).
+
+## Experiment 10: Travelling Salesman Problem
+
+Find a minimum distance tour through four cities by checking all route permutations. See [ex-10.py](ex-10.py) and the [Word lab record](ex-10.docx).
+
+## Experiment 11: A Star Search Algorithm
+
+Find a least-cost path using path cost plus a heuristic estimate. See [ex-11.py](ex-11.py) and the [Word lab record](ex-11.docx).
