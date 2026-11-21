@@ -107,3 +107,19 @@ Build an ID3 decision tree from categorical weather data. See [ex-16.py](ex-16.p
 ## Experiment 17: Feed Forward Neural Network
 
 Compute hidden and output activations for a small sigmoid network. See [ex-17.py](ex-17.py) and [ex-17.docx](ex-17.docx). (CO3)
+
+## Experiment 18: Sum Integers in Prolog
+
+Use recursion to sum integers from one through N. See [ex-18.pl](ex-18.pl) and [ex-18.docx](ex-18.docx). (CO4)
+
+## Experiment 19: Names and Dates of Birth Database
+
+Store and query names with dates of birth. See [ex-19.pl](ex-19.pl) and [ex-19.docx](ex-19.docx). (CO4)
+
+## Experiment 20: Student Teacher Subject Code Database
+
+Store student, teacher, subject, and course-code records as Prolog facts. See [ex-20.pl](ex-20.pl) and [ex-20.docx](ex-20.docx). (CO5)
+
+## Experiment 21: Planets Database
+
+Store planet names, order from the Sun, and type in Prolog facts. See [ex-21.pl](ex-21.pl) and [ex-21.docx](ex-21.docx). (CO4)
