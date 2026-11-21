@@ -83,3 +83,27 @@ Find a minimum distance tour through four cities by checking all route permutati
 ## Experiment 11: A Star Search Algorithm
 
 Find a least-cost path using path cost plus a heuristic estimate. See [ex-11.py](ex-11.py) and the [Word lab record](ex-11.docx).
+
+## Experiment 12: Map Coloring using CSP
+
+Assign colors to the Australia map so adjacent regions differ. See [ex-12.py](ex-12.py) and [ex-12.docx](ex-12.docx). (CO2)
+
+## Experiment 13: Tic Tac Toe Game
+
+Play a two-player console game with legal move checks and win/draw detection. See [ex-13.py](ex-13.py) and [ex-13.docx](ex-13.docx). (CO5)
+
+## Experiment 14: Minimax Algorithm
+
+Select an optimal Tic-Tac-Toe move using minimax. See [ex-14.py](ex-14.py) and [ex-14.docx](ex-14.docx). (CO3)
+
+## Experiment 15: Alpha Beta Pruning
+
+Apply alpha-beta pruning to the Tic-Tac-Toe minimax search. See [ex-15.py](ex-15.py) and [ex-15.docx](ex-15.docx). (CO3)
+
+## Experiment 16: Decision Tree
+
+Build an ID3 decision tree from categorical weather data. See [ex-16.py](ex-16.py) and [ex-16.docx](ex-16.docx). (CO3)
+
+## Experiment 17: Feed Forward Neural Network
+
+Compute hidden and output activations for a small sigmoid network. See [ex-17.py](ex-17.py) and [ex-17.docx](ex-17.docx). (CO3)
