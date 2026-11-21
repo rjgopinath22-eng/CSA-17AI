@@ -123,3 +123,43 @@ Store student, teacher, subject, and course-code records as Prolog facts. See [e
 ## Experiment 21: Planets Database
 
 Store planet names, order from the Sun, and type in Prolog facts. See [ex-21.pl](ex-21.pl) and [ex-21.docx](ex-21.docx). (CO4)
+
+## Experiment 22: Towers of Hanoi
+
+A recursive Prolog solution that prints the disk moves. See [ex-22.pl](ex-22.pl) and [ex-22.docx](ex-22.docx). (CO4)
+
+## Experiment 23: Bird Flight Queries
+
+Query whether listed birds can fly and enumerate answers through backtracking. See [ex-23.pl](ex-23.pl) and [ex-23.docx](ex-23.docx). (CO4)
+
+## Experiment 24: Family Tree
+
+Store parent facts and query sibling, grandparent, and ancestor relationships. See [ex-24.pl](ex-24.pl) and [ex-24.docx](ex-24.docx). (CO4)
+
+## Experiment 25: Diet Suggestions by Disease
+
+Retrieve illustrative sample food lists based on a condition label. This is a programming example, not health guidance. See [ex-25.pl](ex-25.pl) and [ex-25.docx](ex-25.docx). (CO4)
+
+## Experiment 26: Monkey and Banana Problem
+
+Search a small state space for actions that let the monkey reach the banana. See [ex-26.pl](ex-26.pl) and [ex-26.docx](ex-26.docx). (CO4)
+
+## Experiment 27: Fruit and Color Backtracking
+
+Use Prolog facts and backtracking to enumerate fruit and color matches. See [ex-27.pl](ex-27.pl) and [ex-27.docx](ex-27.docx). (CO4)
+
+## Experiment 28: Best First Search
+
+Prioritize graph nodes using heuristic values. See [ex-28.pl](ex-28.pl) and [ex-28.docx](ex-28.docx). (CO4)
+
+## Experiment 29: Medical Diagnosis Rule Example
+
+Use sample symptom facts and rules to infer possible labels. This is a programming example, not medical guidance. See [ex-29.pl](ex-29.pl) and [ex-29.docx](ex-29.docx). (CO4)
+
+## Experiment 30: Forward Chaining
+
+Repeatedly apply rules to known facts until reaching closure. See [ex-30.pl](ex-30.pl) and [ex-30.docx](ex-30.docx). (CO4)
+
+## Experiment 31: Backward Chaining
+
+Prove goals from facts and rule conditions. See [ex-31.pl](ex-31.pl) and [ex-31.docx](ex-31.docx). (CO4)
