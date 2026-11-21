@@ -163,3 +163,43 @@ Repeatedly apply rules to known facts until reaching closure. See [ex-30.pl](ex-
 ## Experiment 31: Backward Chaining
 
 Prove goals from facts and rule conditions. See [ex-31.pl](ex-31.pl) and [ex-31.docx](ex-31.docx). (CO4)
+
+## Experiment 32: WordPress Blog and HTML Tags
+
+A sample blog page demonstrates the HTML title element, headings, and anchor navigation. For WordPress, set the post title in the editor and place the body markup in a Custom HTML block. See [ex-32.html](ex-32.html) and [ex-32.docx](ex-32.docx). (CO2)
+
+## Experiment 33: Linear Regression
+
+Fit a line with gradient descent to predict a continuous value. See [ex-33.py](ex-33.py) and [ex-33.docx](ex-33.docx). (CO4)
+
+## Experiment 34: K Nearest Neighbors
+
+Classify points with Euclidean distance and a majority vote. See [ex-34.py](ex-34.py) and [ex-34.docx](ex-34.docx). (CO5)
+
+## Experiment 35: Decision Tree Classification
+
+Train a scikit-learn decision tree on a simple binary dataset. Requires scikit-learn. See [ex-35.py](ex-35.py) and [ex-35.docx](ex-35.docx). (CO3)
+
+## Experiment 36: TensorFlow Image Classification
+
+Train a neural network on the MNIST digit dataset. Requires TensorFlow and downloads MNIST on first run. See [ex-36.py](ex-36.py) and [ex-36.docx](ex-36.docx). (CO3)
+
+## Experiment 37: Sentiment Analysis
+
+Classify text using TF-IDF features and Naive Bayes. Requires scikit-learn. See [ex-37.py](ex-37.py) and [ex-37.docx](ex-37.docx). (CO3)
+
+## Experiment 38: Genetic Algorithm
+
+Optimize a mathematical function using selection, crossover, and mutation. See [ex-38.py](ex-38.py) and [ex-38.docx](ex-38.docx). (CO4)
+
+## Experiment 39: Support Vector Machine
+
+Fit a linear SVM for binary classification. Requires scikit-learn. See [ex-39.py](ex-39.py) and [ex-39.docx](ex-39.docx). (CO4)
+
+## Experiment 40: Principal Component Analysis
+
+Reduce the Iris dataset to two components using scikit-learn. See [ex-40.py](ex-40.py) and [ex-40.docx](ex-40.docx). (CO4)
+
+## Experiment 41: Collaborative Filtering
+
+Recommend items using user-based rating similarity. See [ex-41.py](ex-41.py) and [ex-41.docx](ex-41.docx). (CO5)
