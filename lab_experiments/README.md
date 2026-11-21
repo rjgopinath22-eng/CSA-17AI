@@ -1,6 +1,6 @@
 # AI Lab Experiments
 
-These three experiments demonstrate graph search and constraint solving in Python. Each program uses only the Python standard library and can be run from this directory with `python filename.py`.
+These three experiments demonstrate graph search and constraint solving in Python. Each program uses only the Python standard library and can be run from this directory with `python ex-1.py, ex-2.py, or ex-3.py`.
 
 ## Experiment 1: Breadth First Search
 
@@ -10,7 +10,7 @@ These three experiments demonstrate graph search and constraint solving in Pytho
 
 **Algorithm:** Put the start vertex in a queue; repeatedly remove the front vertex; visit each unvisited neighbor, recording its parent and adding it to the queue. When the goal is reached, follow parent links back to the start.
 
-**Program:** See [`breadth_first_search.py`](breadth_first_search.py).
+**Program:** See [`ex-1.py`](ex-1.py).
 
 **Sample result:** `BFS shortest path: A -> C -> F`
 
@@ -24,7 +24,7 @@ These three experiments demonstrate graph search and constraint solving in Pytho
 
 **Algorithm:** Check the board and solvability; enqueue the start state; generate states by swapping the blank with an adjacent tile; store each new state's parent and move; when the goal is found, reconstruct the moves.
 
-**Program:** See [`eight_puzzle.py`](eight_puzzle.py).
+**Program:** See [`ex-2.py`](ex-2.py).
 
 **Sample initial board:**
 
@@ -46,7 +46,7 @@ These three experiments demonstrate graph search and constraint solving in Pytho
 
 **Algorithm:** Start in the first row; try each safe column; recurse to the next row; if no placement works, remove the queen and try the next column. Stop after finding a complete placement.
 
-**Program:** See [`eight_queens.py`](eight_queens.py).
+**Program:** See [`ex-3.py`](ex-3.py).
 
 **Sample result:** The program prints one valid board using `Q` for queens and `.` for empty squares. A solution may differ if the search order changes.
 
